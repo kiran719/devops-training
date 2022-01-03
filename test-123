@@ -1,4 +1,4 @@
-ls -lrt
+ls -ltr  lot
 ls -a
 rm -rf 
 du-sh
