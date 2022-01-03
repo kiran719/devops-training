@@ -1,0 +1,5 @@
+ls -lrt
+ls -a
+rm -rf 
+du-sh
+df -h .
