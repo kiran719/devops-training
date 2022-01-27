@@ -22,6 +22,9 @@ agent any
                } 
         }
         stage ('Monitor') { 
+            steps {
+                echo 'Monitoring this build'
+            }    
         }
     }           
  }
