@@ -1,10 +1,8 @@
-
 pipeline { 
 agent any 
     stages { 
         stage ('Build') { 
             steps {
-                sudo yum install wget
                 echo 'Building dummy project....'
             }
         }
@@ -24,9 +22,7 @@ agent any
                } 
         }
         stage ('Monitor') { 
- 
         }
  
     }           
  }
-
